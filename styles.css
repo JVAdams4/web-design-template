@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient(120deg, #f8f9fa 0%, #e3e6ee 100%);
+    margin: 0;
+    font-family: var(--font-open-sans, Arial, sans-serif);
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    background: linear-gradient(90deg, #e3e6ee 0%, #f8f9fa 100%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    border-bottom: 1px solid #d1d5db;
+}
+
+h1, h2 {
+    margin: 0.5rem 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+}
+
+section h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.color-palette {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.color-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.color-swatch {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    border: 2px solid #e3e6ee;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: transform 0.2s;
+}
+.color-swatch:hover {
+    transform: scale(1.08) rotate(-2deg);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+}
+
+.color-label {
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #444;
+    text-shadow: 0 1px 2px #fff;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.font-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin: 2.5rem 0 1.5rem 0;
+}
+.font-block {
+    background: #f8f9fa;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    padding: 1.2rem 1.5rem;
+    min-width: 220px;
+    max-width: 260px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+.font-block strong {
+    letter-spacing: 1px;
+}
+.font-block em {
+    font-size: 1rem;
+    color: #888;
+    font-style: italic;
+    margin-left: 6px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    main {
+        padding: 1rem;
+    }
+    .color-item {
+        width: 80px;
+    }
+    .color-swatch {
+        width: 48px;
+        height: 48px;
+    }
+}

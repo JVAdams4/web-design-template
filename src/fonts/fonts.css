@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+/* Font Variables */
+:root {
+    --font-roboto: 'Roboto', sans-serif;
+    --font-open-sans: 'Open Sans', sans-serif;
+    --font-lora: 'Lora', serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+
+    --weight-regular: 400;
+    --weight-bold: 700;
+}
+/* Font Classes */
+.roboto-bold {
+    font-family: var(--font-roboto);
+    font-weight: var(--weight-bold);
+}
+
+.roboto-regular {
+    font-family: var(--font-roboto);
+    font-weight: var(--weight-regular);
+}
+
+.open-sans-bold {
+    font-family: var(--font-open-sans);
+    font-weight: var(--weight-bold);
+}
+
+.open-sans-regular {
+    font-family: var(--font-open-sans);
+    font-weight: var(--weight-regular);
+}
+
+.lora-bold {
+    font-family: var(--font-lora);
+    font-weight: var(--weight-bold);
+}
+
+.lora-regular {
+    font-family: var(--font-lora);
+    font-weight: var(--weight-regular);
+}
+
+.montserrat-bold {
+    font-family: var(--font-montserrat);
+    font-weight: var(--weight-bold);
+}
+
+.montserrat-regular {
+    font-family: var(--font-montserrat);
+    font-weight: var(--weight-regular);
+}

@@ -1,0 +1,39 @@
+.red-light {
+    background-color: #ffcccc;
+}
+
+.red-medium {
+    background-color: #ff6666;
+}
+
+.red-dark {
+    background-color: #cc0000;
+}
+
+.blue-light {
+    background-color: #cce5ff;
+}
+
+.blue-medium {
+    background-color: #66b3ff;
+}
+
+.blue-dark {
+    background-color: #0033cc;
+}
+
+.green-light {
+    background-color: #9ae7ac;
+}
+
+.green-medium {
+    background-color: #49c93d;
+}
+
+.green-dark {
+    background-color: #005f00;
+}
+
+.silver {
+    background-color: #c0c0c0;
+}
