@@ -8,19 +8,19 @@ This project is a web design template that showcases a variety of colors and fon
 The template includes the following color palette:
 
 - **Red Shades:**
-  - Red Light: #FF7F7F
-  - Red Medium: #FF4C4C
-  - Red Dark: #FF0000
+  - Red Light: #ffcccc
+  - Red Medium: #ff6666
+  - Red Dark: #cc0000
 
 - **Blue Shades:**
-  - Blue Light: #7FBFFF
-  - Blue Medium: #4C9FFF
-  - Blue Dark: #007FFF
+  - Blue Light: #cce5ff
+  - Blue Medium: #66b3ff
+  - Blue Dark: #0033cc
 
 - **Green Shades:**
-  - Green Light: #7FFF7F
-  - Green Medium: #4CFF4C
-  - Green Dark: #00FF00
+  - Green Light: #9ae7ac
+  - Green Medium: #49c93d
+  - Green Dark: #005f00
 
 - **Silver Shade:**
   - Silver: #C0C0C0
